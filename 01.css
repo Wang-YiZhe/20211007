@@ -1,0 +1,28 @@
+body{
+    background-color: burlywood;
+}
+.hf{
+    text-align: center;
+}
+ 
+table{
+    border:1px solid black;
+    width:900px;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid black;
+    padding: 10px;
+}
+.number{
+    font-size: 30px;
+    color:brown;
+}
+th{
+    background-color: rgb(243, 243, 201);
+    width: 250px;
+}
+td{
+    background-color: white;
+    width: 550px;
+}
