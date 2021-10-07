@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="02.css"type="text/css">
+</head>
+<body>
+    <fieldset>
+        <legend>個人資訊</legend>
+            <form action="20210823-2.html" method="GET">
+                    姓名:
+                <p><input type="text" name="yourname" value=""></p>
+                    性別:
+                <p><label for="m"><input type="radio" name="gender" value="male" id="m">男生</p></label>
+                <p><label for="f"><input type="radio" name="gender" value="female" id="f">女生</p></label>
+                    最高學歷:
+                <select name="school" size="5">
+                    <option name="1"value=""selected>國中</option>
+                    <option name="2"value="">高中</option>
+                    <option name="3"value="">大專院校</option>
+                    <option name="4"value="">碩士</option>
+                    <option name="5"value="">博士</option>
+                </select>
+            </form>
+    </fieldset>
+    <fieldset>
+        <legend>其他資訊</legend>
+        <table>
+            <tr>
+                <th>您喜歡下列哪些活動(可複選):</th>
+                <td>
+                    <label for="in1"><input type="checkbox" name="int" value="1"
+                    id="in1">唱歌</label>
+                    <label for="in2"><input type="checkbox" name="int" value="2"
+                    id="in2">看書</label>
+                    <label for="in3"><input type="checkbox" name="int" value="3"
+                    id="in3">運動</label>
+                    <label for="in4"><input type="checkbox" name="int" value="4"
+                    id="in4">音樂</label>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>您對於使用臉書社群有何看法:</th>
+                <td>
+                <p><textarea name="textarea" id="" cols="40" rows="5"></textarea></p>
+                </td>
+            </tr>
+        </table>
+        <div class="btns">
+            <input type="submit" value="傳送資料">
+            <input type="reset" value="重置資料">
+        </div>
+    </fieldset>
+
+</body>
+</html>
